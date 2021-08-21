@@ -63,7 +63,9 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container-fluid mx-3 mx-md-5">
-            <a class="navbar-brand" href="#">GrimSavage</a>
+            <a class="navbar-brand" href="#">
+                <img src="/zuri.jpeg" alt="logo" width="150">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -74,16 +76,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#work">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -97,7 +96,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="card">
+            <div class="card mb-5" id="about">
                 <div class="card-body py-5">
                     <div class="row mx-1 my-3 mx-lg-4">
                         <div class="col-md-6 fs-6 mb-3">
@@ -184,8 +183,74 @@
                     </div>
                 </div>
             </div>
+            <div class="mb-3" id="work">
+                <h3 class="text-center">PORTFOLIO</h3>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <img src="/test-files/campuslodges.png" class="card-img-top" alt="campuslodges">
+                            <div class="card-body">
+                                <h5 class="card-title">CampusLodges</h5>
+                                <p class="card-text">Simple way to grant accomodation to students</p>
+                                <a href="https://campuslodges.com" target="_blank" class="btn btn-primary">View Live Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <img src="/test-files/home-intrusion-system.png" class="card-img-top" alt="home-intrusion-system">
+                            <div class="card-body">
+                                <h5 class="card-title">Home Intrusion System</h5>
+                                <p class="card-text">Monitor your home from anywhere!</p>
+                                <a href="https://github.com/vrrayz/Home-Intrusion-System" target="_blank" class="btn btn-primary">View Code Base</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <img src="/test-files/fund-my-laptop.png" class="card-img-top" alt="fund-my-laptop">
+                            <div class="card-body">
+                                <h5 class="card-title">Fund My Laptop</h5>
+                                <p class="card-text">Contributions to one the Hngi7 projects</p>
+                                <a href="https://github.com/vrrayz/Fund-My-Laptop-BE" target="_blank" class="btn btn-primary">View Code
+                                    Base</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact">
+                <div class="card">
+                    <div class="card-body py-5">
+                            <h3 class="about-me-title">Contact Me</h3>
+                        <form class="mt-5">
+                            <div class="mb-3">
+                                <label for="inputName" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="inputName">
+                            </div>
+                            <div class="mb-3">
+                                <label for="inputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="inputEmail1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="inputSubject" class="form-label">Subject</label>
+                                <input type="text" class="form-control" id="inputSubject">
+                            </div>
+                            <div class="mb-3">
+                                <label for="inputSubject" class="form-label">Message</label>
+                                <textarea class="form-control" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
+    <footer class="bg-dark text-light text-center py-3 mt-3">
+        GrimSavage 2021
+    </footer>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
