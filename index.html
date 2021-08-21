@@ -12,20 +12,50 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap" rel="stylesheet">
 
     <title>My Portfolio!</title>
     <style>
         body {
             font-family: 'Roboto Mono', monospace;
+            font-weight: lighter;
+            background-color: rgb(245, 245, 245);
+            color: rgb(78, 78, 78);
+        }
+
+        .intro-section {
+            margin-top: 25vh !important;
+        }
+
+        .profile-details {
+            font-size: 16px;
         }
 
         .intro {
             height: 100vh;
             background-image: url('vic.jpg');
             background-repeat: no-repeat;
+            background-attachment: fixed;
             background-size: cover;
             background-position: center center;
+        }
+
+        .about-me-title{
+            position: relative;
+        }
+        .about-me-title::before {
+            content: "";
+            position: absolute;
+            height: 3px;
+            background-color: rgb(0, 120, 255);
+            width: 50px;
+            bottom: -12px;
+        }
+
+        @media (max-width: 1024px) {
+            .profile-details {
+                font-size: 12px;
+            }
         }
     </style>
 </head>
@@ -60,10 +90,99 @@
         </div>
     </nav>
     <main>
-        <div class="container-fluid bg-light intro py-5">
-            <div class="container-fluid py-5 my-5 mx-3 mx-md-0 text-center">
-                <p class="display-4 text-light"> <span id="introText"></span> </p>
+        <div class="container-fluid bg-light intro py-5 mb-5">
+            <div class="container-fluid py-5 my-5 mx-md-0 text-center intro-section">
+                <p class="display-4 text-light fw-bold"> <span id="introText"></span> </p>
                 <p class="text-light h4"><span id="subIntroText"></span></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="card-body py-5">
+                    <div class="row mx-1 my-3 mx-lg-4">
+                        <div class="col-md-6 fs-6 mb-3">
+                            <div class="row mb-3 profile-details">
+                                <div class="col-md-6 pe-0">
+                                    <img src="short_pic.jpeg" alt="profile" class="img-fluid img-thumbnail mb-3"
+                                        width="150" height="150">
+                                </div>
+                                <div class="col-md-6 ps-lg-0">
+                                    <p class="card-text fw-light"><span class="fw-bold">Name: </span>Victor Okonkwo</p>
+                                    <p class="card-text fw-light"><span class="fw-bold">Profile: </span>Fullstack Web
+                                        Developer</p>
+                                    <p class="card-text fw-light"><span class="fw-bold">Email:
+                                        </span>emmyvic98@gmail.com</p>
+                                    <p class="card-text fw-light"><span class="fw-bold">Phone: </span>+2348112212981</p>
+                                </div>
+                            </div>
+                            <div class="d-md-none">
+                                <h5 class="fw-bold mb-3">Skill</h5>
+                                HTML
+                                <div class="progress mb-3">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                </div>
+                                CSS
+                                <div class="progress mb-3">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+                                </div>
+                                JavaScript
+                                <div class="progress mb-3">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+                                </div>
+                                PHP
+                                <div class="progress mb-3">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                </div>
+                                MYSQL
+                                <div class="progress mb-3">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <h3 class="about-me-title">About me</h3>
+                            <p class="card-text fw-light mt-4">
+                                I have a very good knowledge of basic web development
+                                technologies.
+                                I love teamwork, i'm fun to be around.
+                                Currently an Intern at HNGi8
+                            </p>
+                        </div>
+                        <div class="col-md-8 mx-auto d-none d-md-block">
+                            <h5 class="fw-bold mb-3">Skill</h5>
+                            HTML
+                            <div class="progress mb-3">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                            </div>
+                            CSS
+                            <div class="progress mb-3">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+                            </div>
+                            JavaScript
+                            <div class="progress mb-3">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+                            </div>
+                            PHP
+                            <div class="progress mb-3">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                            </div>
+                            MYSQL
+                            <div class="progress mb-3">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -93,20 +212,20 @@
                         fullText = fullText.replace(fullText, fullText.substring(0, fullText.length - 1))
                         document.getElementById(id).innerHTML = fullText;
                     }
-                    if (fullText == '' && i >= txt.length){
-                         i = 0
-                         count++;
-                         if(Array.isArray(intro) && count >= intro.length){
-                             count = 0
-                         }
+                    if (fullText == '' && i >= txt.length) {
+                        i = 0
+                        count++;
+                        if (Array.isArray(intro) && count >= intro.length) {
+                            count = 0
+                        }
                     }
                 }
                 // console.log(count)
             }, speed);
         }
-        let arrayOfWords = ['Fullstack Web Dev ', 'Intern at HNGi8 ','Backend Developer at Campuslodges.com ']
-        typeWrite('I am Victor Okonkwo ',true,100,'introText')
-        setTimeout(function(){ typeWrite(arrayOfWords, false, 140, 'subIntroText')}, 2000)
+        let arrayOfWords = ['Fullstack Web Dev ', 'Intern at HNGi8 ', 'Backend Developer at Campuslodges.com ']
+        typeWrite('I am Victor Okonkwo ', true, 100, 'introText')
+        setTimeout(function () { typeWrite(arrayOfWords, false, 140, 'subIntroText') }, 2000)
     </script>
 </body>
 
