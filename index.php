@@ -40,9 +40,10 @@
             background-position: center center;
         }
 
-        .about-me-title{
+        .about-me-title {
             position: relative;
         }
+
         .about-me-title::before {
             content: "";
             position: absolute;
@@ -66,8 +67,7 @@
             <a class="navbar-brand" href="#">
                 <img src="/zuri.jpeg" alt="logo" width="150">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -102,8 +102,7 @@
                         <div class="col-md-6 fs-6 mb-3">
                             <div class="row mb-3 profile-details">
                                 <div class="col-md-6 pe-0">
-                                    <img src="short_pic.jpeg" alt="profile" class="img-fluid img-thumbnail mb-3"
-                                        width="150" height="150">
+                                    <img src="short_pic.jpeg" alt="profile" class="img-fluid img-thumbnail mb-3" width="150" height="150">
                                 </div>
                                 <div class="col-md-6 ps-lg-0">
                                     <p class="card-text fw-light"><span class="fw-bold">Name: </span>Victor Okonkwo</p>
@@ -118,28 +117,23 @@
                                 <h5 class="fw-bold mb-3">Skill</h5>
                                 HTML
                                 <div class="progress mb-3">
-                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                                        aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
                                 </div>
                                 CSS
                                 <div class="progress mb-3">
-                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                                        aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
                                 </div>
                                 JavaScript
                                 <div class="progress mb-3">
-                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                                        aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
                                 </div>
                                 PHP
                                 <div class="progress mb-3">
-                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                                        aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
                                 </div>
                                 MYSQL
                                 <div class="progress mb-3">
-                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                                        aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
                                 </div>
                             </div>
                         </div>
@@ -156,28 +150,23 @@
                             <h5 class="fw-bold mb-3">Skill</h5>
                             HTML
                             <div class="progress mb-3">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                                    aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
                             </div>
                             CSS
                             <div class="progress mb-3">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                                    aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
                             </div>
                             JavaScript
                             <div class="progress mb-3">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                                    aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
                             </div>
                             PHP
                             <div class="progress mb-3">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                                    aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
                             </div>
                             MYSQL
                             <div class="progress mb-3">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                                    aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
                             </div>
                         </div>
                     </div>
@@ -223,8 +212,9 @@
             <div id="contact">
                 <div class="card">
                     <div class="card-body py-5">
-                            <h3 class="about-me-title">Contact Me</h3>
-                        <form class="mt-5">
+                        
+                        <h3 class="about-me-title">Contact Me</h3>
+                        <form action="" method="post" class="mt-5">
                             <div class="mb-3">
                                 <label for="inputName" class="form-label">Name</label>
                                 <input type="text" class="form-control" id="inputName">
@@ -254,9 +244,7 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <script>
         function typeWrite(intro, isHeaderText = false, speed = 100, id) {
             var fullText = ''
@@ -290,7 +278,9 @@
         }
         let arrayOfWords = ['Fullstack Web Dev ', 'Intern at HNGi8 ', 'Backend Developer at Campuslodges.com ']
         typeWrite('I am Victor Okonkwo ', true, 100, 'introText')
-        setTimeout(function () { typeWrite(arrayOfWords, false, 140, 'subIntroText') }, 2000)
+        setTimeout(function() {
+            typeWrite(arrayOfWords, false, 140, 'subIntroText')
+        }, 2000)
     </script>
 </body>
 
